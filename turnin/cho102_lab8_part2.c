@@ -1,13 +1,15 @@
 /*	Author:Cindy Ho
  *  Partner(s) Name: 
  *	Lab Section:
- *	Assignment: Lab #8  Exercise #1
+ *	Assignment: Lab #8  Exercise #2
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
  *
  *	Demo Link: 
+ *	Shining a light on the photoresistor, I got the value (MAX): 0x27
+ *	Convering the photoresistor with a box, I got the value (MIN): 0x127
  *
  */
 #include <avr/io.h>
