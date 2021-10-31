@@ -33,9 +33,8 @@ int main(void) {
 	unsigned short my_short = ADC;
 	unsigned char my_char = (char)my_short;
 	unsigned char my_char1 = (char)(my_char >> 8);
-	unsigned char my_char2 = my_char1 & 0x03;
 	PORTB = my_char;
-	PORTD = my_char2;
+	PORTD = my_char1 & 0x03;
 
     }
     return 1;
