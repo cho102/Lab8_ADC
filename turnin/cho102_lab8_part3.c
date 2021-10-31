@@ -20,10 +20,11 @@ void ADC_init() {
 
 
 int main(void) {
+	DDRA = 0x00; PORTA = 0xFF;
 	DDRB = 0xFF; PORTB = 0x00;
 	DDRD = 0x03; PORTD = 0xFC;
 	ADC_init();
-	short MAX_VAL = 0;
+	short MAX_VAL = 0xBB;
 	while (1) {
 		short my_short = ADC;
 		if (my_short > MAX_VAL) { 
